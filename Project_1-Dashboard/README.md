@@ -17,4 +17,25 @@ The dataset used is from Luke Barousse's Excel Course on YouTube. It contains re
 - Locations
 - Skills
 # Dashboard Build  
-...to be continued/README still in progress! - 1st July, 2026
+## Formulas and Functions  
+### Median Salary by Job Title  
+```
+=MEDIAN(
+ IF(
+  (Data[job_country]=country)*
+  (Data[job_title_short]=$A2)*
+  (ISNUMBER(SEARCH(type,Data[job_schedule_type])))*
+  (Data[salary_year_avg]<>0),
+  Data[salary_year_avg]
+ )
+)
+```
+- **Filters by Multiple Values:** excluding blank values and data that doesn't meet the criteria for country, job title and schedule type.
+- **Array Formula:** `MEDIAN(` formula with a nested `IF(` statement to be uniquely tailored to each value in the array.  
+- **Advanced Boolean Value Usage:** `(ISNUMBER(SEARCH(type,Data[job_schedule-type])))` where value of "type" is determined by which value is selected in "schedule type" of the dashboard. `SEARCH(` will return a number given that the data matches data validation, and `ISNUMBER(` will include that row in the formula if it indeed matches.
+
+**Results:** This formula populates the table below with the median salary for each job title while also filtering for country and schedule type:  
+<img width="751" height="381" alt="Screenshot 2026-07-02 062910" src="https://github.com/user-attachments/assets/61fea77a-cdec-44e1-86c4-cc4671d6d4d8" />  
+## Charts  
+# Clustered Bar Chart  
+- To be continued/not yet finished! -July 2nd, 2026
