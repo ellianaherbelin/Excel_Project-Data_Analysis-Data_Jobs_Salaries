@@ -59,4 +59,4 @@ The dataset used is from Luke Barousse's Excel Course on YouTube. It contains re
 ## Conclusion  
 I created this dashboard to expand the understanding of working professionals in the data science field in regards to their demand, their median salary, and variations by region. Thank you for reading!  
 ## Analysis File  
-You can checkout the other part of this project in [Project_2-Analysis](Project_2-Analysis)
+You can checkout the other part of this project in [Project_2-Analysis](https://github.com/ellianaherbelin/Excel_Project-Data_Analysis-Data_Jobs_Salaries/tree/main/Project_2-Analysis)) 
