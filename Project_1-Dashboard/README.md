@@ -2,7 +2,7 @@
 <img width="2690" height="1250" alt="Excel_Data_Job_Salary_Dashboard_Demo-ezgif com-optimize" src="https://github.com/user-attachments/assets/cebf971f-db26-4350-87f8-47cb85bd68d3" />  
 
 ## Introduction  
-This Data Science Salary Dashboard was made to assist job seekers in speculating what kind of pay they can expect, depending on their role, region, and schedule. 🔍   
+This dashboard was made to assist job seekers in speculating what kind of pay they can expect, depending on their role, region, and schedule. 🔍   
 ## Dashboard File  
 You can checkout the final dashboard in [Project_1-Dashboard](Project_1-Dashboard)  
 ## Excel Skills Used  
@@ -55,8 +55,8 @@ The dataset used is from Luke Barousse's Excel Course on YouTube. It contains re
 <img width="582" height="408" alt="Screenshot 2026-07-02 061944" src="https://github.com/user-attachments/assets/e1ca831c-a8f3-4f49-880b-8808298cebac" />  
 
 - **Secure Dropdown List:** given that this feature includes manual keyboard input, a dropdown list establishes the rules for what input is acceptable and eliminates the guesswork.
-- **Functionality:** this feature equips the user to be able to try out different scenarios. Give it a try! Make a hypothesis and test your knowledge.
+- **Functionality:** this feature equips the user to be able to plot out different scenarios. Give it a try! Make a hypothesis and test your knowledge.
 ## Conclusion  
 I created this dashboard to expand the understanding of working professionals in the data science field in regards to their demand, their median salary, and variations by region. Thank you for reading!  
 ## Analysis File  
-You can checkout the other part of this project in [Project_2-Analysis](https://github.com/ellianaherbelin/Excel_Project-Data_Analysis-Data_Jobs_Salaries/tree/main/Project_2-Analysis)) 
+You can checkout part 2 of this project in [Project_2-Analysis](https://github.com/ellianaherbelin/Excel_Project-Data_Analysis-Data_Jobs_Salaries/tree/main/Project_2-Analysis)) 
