@@ -80,14 +80,24 @@ where "Skill Likelihood" is a field utilized in the PivotTable for this section 
 I also made a relationship between the two tables via the columns from both named "job_id"  
 <img width="793" height="720" alt="Screenshot 2026-07-03 111010(1)" src="https://github.com/user-attachments/assets/62572e9c-e176-4ced-bb09-7a44c3731d65" />  
 
-Thus I came up with this PivotTable and PivotChart:  
-<img width="1390" height="778" alt="Screenshot 2026-07-03 062329(1)" src="https://github.com/user-attachments/assets/54c9b56d-6866-490a-afa5-7297193199cc" />  
+Thus I came up with this PivotTable:  
+<img width="254" height="456" alt="Screenshot 2026-07-06 095047" src="https://github.com/user-attachments/assets/699bcb39-da37-4499-b4ef-c649a673e898" />  
 
 **Insights**  
 - SQL, Excel, Tableau, and Python are the most largely used skills by the Data Analyst in the US, with SAS, Power BI, R, Word, and Powerpoint expressing moderate popularity.
 - The user is enabled a quick perception at what skills different jobs are likely to entail.
-- Skill popularity varies a bit by region.  
-# Not yet finished/README in progress! - July 3, 2026  
+- Skill popularity varies a bit by region. (Becomes apparent upon using the slicers of this worksheet.)   
 ## 4. What's the pay for the top 15 skills?  
 ### Skill: Pivot Charts (Advanced Charts)  
+Due to the relationship between the two tables in my Data Model, I was able to use fields and measures from both to construct a PivotChart. I decided to customize a combination chart of columns and a line with markers that I arranged on a secondary axis for a more practical design. After formatting the axis and colourizing the visuals, it was ready:  
+<img width="1271" height="775" alt="Screenshot 2026-07-06 100657(1)" src="https://github.com/user-attachments/assets/76481437-cee1-4416-a588-f31fdd05f291" />  
+
+**Insights**  
+- Python has a high median salary while being high in demand, with others, namely Tableau and SQL, following this pattern.  
+- SAS, Power BI, R, and Excel also remain at the top of the list of skills with the highest ROI.
+- Skills with higher pay yet lower likelihood are more niched, and may require more specific situations to bring value back to you.
+- Therefore, it would benefit the aspiring Data Analyst to pick up on the more popular, higher paying skills first, and then niche down their repertoire with the less likely but most valuable skills.  
 ## Conclusion  
+From this analysis I hope to aid those that wish to understand the trends of the Data Science job market and are either currently learning skills to land their first job, or are interested in finding ways to increase the leverage of their current skillset after they've already been in the field. Thank you for reading and stay informed!  
+## Analysis File  
+If you haven't already, you can checkout part 1 of this project in [Project_1-Dashboard](https://github.com/ellianaherbelin/Excel_Project-Data_Analysis-Data_Jobs_Salaries/tree/main/Project_1-Dashboard).
