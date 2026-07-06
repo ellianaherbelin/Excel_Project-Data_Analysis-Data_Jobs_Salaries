@@ -1,7 +1,9 @@
-# Salary & Skills Analysis  
+# 🔎 Salary & Skills Analysis  
 ## Introduction  
 This analysis reflects how important it is to be informed about what skills have the most leverage in the world of data. Especially if you're a newcomer to the field of Data Science, you'll want to know which skills to become familiar with first so that you can perform at your best for your target employer avatar AND receive adequate compensation.  
-### Questions to Analyze  
+## 🔗 Analysis File  
+You can check out the final analysis in [Project_2-Analysis](Project_2-Analysis).  
+### 💭 Questions to Analyze  
 I established the goals of this analysis by asking these questions:  
 1. Do more skills get you better pay?
 2. What's the salary for data jobs in different regions?
@@ -9,19 +11,19 @@ I established the goals of this analysis by asking these questions:
 4. What's the pay for the top 15 skills?  
 ### Excel Skills Used  
 The following Excel skills were utilized in this analysis:  
-- Pivot Tables
-- Pivot Charts
-- DAX (Data Analysis Expressions)
-- Power Query  
-- Power Pivot  
+- 🔢 Pivot Tables
+- 📊 Pivot Charts
+- 🟰 DAX (Data Analysis Expressions)
+- 💪 Power Query  
+- 📑 Power Pivot  
 ### Data Jobs Dataset  
 The dataset used is from Luke Barousse's Excel Course on YouTube. It contains real-world information from 2023. The knowledge became my own as I followed the project build with him a first time, and then did it all from scratch a second time, which is what you're about to see now. The dataset contains detailed information on:  
-- Job Titles
-- Salaries
-- Locations
-- Skills
-## 1. Do more skills get you better pay?  
-### Skill: Power Query (ETL)  
+- 🧑‍💼 Job Titles
+- 💰 Salaries
+- 🗺️ Locations
+- 🛠️ Skills
+## 1️⃣ Do more skills get you better pay?  
+### Skill: 💪 Power Query (ETL)  
 **Extract**  
 First, I *extract*ed a data table from my resource and then launched the Power Query Editor. I made my first query and the appropriate M language for the first "Source" step appeared in the formula bar as follows:  
 ```
@@ -38,16 +40,16 @@ I made another query that is sourced from the first query, and unpivoted the col
 I wrapped it up by saving and *load*ing for utilization in the workbook.  
 <img width="1780" height="1029" alt="Screenshot 2026-07-03 094734(1)" src="https://github.com/user-attachments/assets/828dd447-ebde-4cbc-b6cf-47527a2156ab" />  
 
-From that was made a pivot table and corresponding chart:  
-<img width="1717" height="778" alt="Screenshot 2026-07-03 095431(1)" src="https://github.com/user-attachments/assets/8faef149-9ba1-42aa-9e36-93f1e416657c" />  
+From that was made a PivotTable and PivotChart:  
+<img width="1717" height="778" alt="Screenshot 2026-07-03 095431(1)" src="https://github.com/user-attachments/assets/8faef149-9ba1-42aa-9e36-93f1e416657c" />   
 
-**Insights**  
+💡 **Insights**  
 - A higher skill count is associated with a higher salary; less specialized roles like Data Analyst and Business Analyst receive less pay.
 - ML Engineer and Senior Data Scientist have a similar median salary to that of Senior Data Engineer, however they have a lower skill count.
 - The same goes for Software Engineer and Data Scientist being similar in pay to Data Engineer while having a lower level of skills.
 - Strictly in general, non-engineer data jobs can be said to require less skills and receive a similar pay to their engineering counterparts.  
-## 2. What's the salary for data jobs in different regions?  
-### Skills: PivotTables and DAX  
+## 2️⃣ What's the salary for data jobs in different regions?  
+### Skills: 🔢 PivotTables and 🟰 DAX  
 **PivotTables**  
 I loaded the first of my two queries from earlier into a PivotTable and set the structure and values with PivotTable fields.  
 <img width="783" height="767" alt="Screenshot 2026-07-03 101932(1)" src="https://github.com/user-attachments/assets/76e07799-bcea-46ee-a7cf-1f032437a489" />  
@@ -66,11 +68,11 @@ This is the DAX formula for the measure "Median Salary US":
 Here's the final result:  
 <img width="1984" height="548" alt="Screenshot 2026-07-03 101510(1)" src="https://github.com/user-attachments/assets/583a8d37-898a-4643-bccf-396dfd8ec61b" />  
 
-**Insights**  
+💡 **Insights**  
 - ML Engineer, Business Analyst, Data Scientist, and Software Engineer roles located in the US have a generally greater possibility of a higher salary than other regions.  
 - Users can investigate which countries where data roles may have a pay advantage.  
-## 3. What are the top skills of data professionals?  
-### Skill: Power Pivot  
+## 3️⃣ What are the top skills of data professionals?  
+### Skill: 📑 Power Pivot  
 The queries I've built everything upon have been added to the Data Model and are tables in Power Pivot. For my smaller query "data_jobs_skills", now a table, I created some measures with more DAX:  
 `Skill Count:=COUNT([job_skills_clean])`  
 
@@ -83,21 +85,21 @@ I also made a relationship between the two tables via the columns from both name
 Thus I came up with this PivotTable:  
 <img width="254" height="456" alt="Screenshot 2026-07-06 095047" src="https://github.com/user-attachments/assets/699bcb39-da37-4499-b4ef-c649a673e898" />  
 
-**Insights**  
+💡 **Insights**  
 - SQL, Excel, Tableau, and Python are the most largely used skills by the Data Analyst in the US, with SAS, Power BI, R, Word, and Powerpoint expressing moderate popularity.
 - The user is enabled a quick perception at what skills different jobs are likely to entail.
 - Skill popularity varies a bit by region. (Becomes apparent upon using the slicers of this worksheet.)   
-## 4. What's the pay for the top 15 skills?  
-### Skill: Pivot Charts (Advanced Charts)  
+## 4️⃣ What's the pay for the top 15 skills?  
+### Skill: 📊 Pivot Charts (Advanced Charts)  
 Due to the relationship between the two tables in my Data Model, I was able to use fields and measures from both to construct a PivotChart. I decided to customize a combination chart of columns and a line with markers that I arranged on a secondary axis for a more practical design. After formatting the axis and colourizing the visuals, it was ready:  
 <img width="1271" height="775" alt="Screenshot 2026-07-06 100657(1)" src="https://github.com/user-attachments/assets/76481437-cee1-4416-a588-f31fdd05f291" />  
 
-**Insights**  
+💡 **Insights**  
 - Python has a high median salary while being high in demand, with others, namely Tableau and SQL, following this pattern.  
 - SAS, Power BI, R, and Excel also remain at the top of the list of skills with the highest ROI.
 - Skills with higher pay yet lower likelihood are more niched, and may require more specific situations to bring value back to you.
-- Therefore, it would benefit the aspiring Data Analyst to pick up on the more popular, higher paying skills first, and then niche down their repertoire with the less likely but most valuable skills.  
+- Therefore, it would benefit the aspiring Data Analyst to pick up on the more popular, higher paying skills first, and then niche down their repertoire with the less likely but more valuable skills.  
 ## Conclusion  
 From this analysis I hope to aid those that wish to understand the trends of the Data Science job market and are either currently learning skills to land their first job, or are interested in finding ways to increase the leverage of their current skillset after they've already been in the field. Thank you for reading and stay informed!  
-## Analysis File  
+## 🔗 Dashboard File  
 If you haven't already, you can checkout part 1 of this project in [Project_1-Dashboard](https://github.com/ellianaherbelin/Excel_Project-Data_Analysis-Data_Jobs_Salaries/tree/main/Project_1-Dashboard).
