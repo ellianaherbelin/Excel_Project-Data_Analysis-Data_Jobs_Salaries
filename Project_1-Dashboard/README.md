@@ -4,7 +4,7 @@
 ## Introduction  
 This dashboard was made to assist job seekers in speculating what kind of pay they can expect, depending on their role, region, and schedule.    
 ## 🔗 Dashboard File  
-You can check out the final dashboard in [Project_1-Dashboard](Project_1-Dashboard)  
+You can check out the final dashboard in [Project_1-Dashboard](Project_1-Dashboard).  
 ## Excel Skills Used  
 The following Excel skills were utilized in this analysis:  
 - 📈 Charts 
